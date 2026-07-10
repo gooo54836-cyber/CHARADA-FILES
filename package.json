@@ -1,0 +1,28 @@
+{
+  "name": "discord-card-shop-bot",
+  "version": "1.0.0",
+  "description": "Bot de loja de venda de cartões para Discord",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "shop",
+    "cards"
+  ],
+  "author": "gooo54836-cyber",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.15.0",
+    "sqlite3": "^5.1.6",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
